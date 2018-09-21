@@ -34,10 +34,9 @@
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
           </article>
 
-              <footer>
-                    <p>Posted by: Miranda Cabeceiras </p>
-                    <p>Contact information: <a href="mcabecei@lesley.edu">mcabecei@lesley.edu</a>.</p>
-                  </footer>
+<?php
+    include 'footer.php';
+?>
 
 </body>
 </html>

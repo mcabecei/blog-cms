@@ -40,7 +40,7 @@
 
 <nav>
         <a href="/index.html/">HTML</a> |
-        <a href="/post-submission.html/">Post-Submission</a> |
+        <a href="/post-submission.html/">Post-Submission</a> 
         </nav>
 
  <main>

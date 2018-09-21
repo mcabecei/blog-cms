@@ -1,5 +1,5 @@
 <?php
-
+    include 'header.php';
 ?>
     <p>For further information, please click on additional links.</p>
 </article>

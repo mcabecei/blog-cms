@@ -15,3 +15,6 @@ $isSettled = $isAdult and $married;             // Integer type variable
 
 function getFullName($firstName, $lastName)  {   // Function name
     return $firstName . " " . $lastName;         // Returned value
+
+$fullName = getFullName($firstName, $lastName);   // Using variables
+$fullName = getFullName("Alice" , "Doe");         // Using values

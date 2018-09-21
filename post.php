@@ -19,7 +19,7 @@
 
       <div style="background-color:indianred">
             <p>Author: Lorem ipsum dolor sit amet 
-            Date Publishe: consectetur adipiscing elit
+            Date Published: consectetur adipiscing elit
             Post Content: Excepteur sint occaecat cupidatat non proident
             </p>
           </div>

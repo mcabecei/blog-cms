@@ -28,10 +28,6 @@
         <button type="reset" value="Reset">Reset</button>
       </form>
       
-
-     
-
-              <footer>
-                    <p>Posted by: Miranda Cabeceiras </p>
-                    <p>Contact information: <a href="mcabecei@lesley.edu">mcabecei@lesley.edu</a>.</p>
-                  </footer>
+<?php
+    include 'footer.php';
+?>

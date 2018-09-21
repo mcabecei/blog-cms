@@ -28,3 +28,5 @@ function getIsSettled($age, $married) {           // Function name
 
 $isSettled = getisSettled($age, $married);          // Using variables
 $isSettled = getisSettled(5, false);                // Using values 
+
+echo "<h1>Hello World</h1>"

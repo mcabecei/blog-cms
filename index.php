@@ -23,14 +23,17 @@
     
     <p>An unordered list of Baking Instruction Posts:</p>
     <ul>
+
       <?php 
         $postTitles = getPostTitlesFromDatabase();
 
         foreach($postTitles as $postTitle) {
             echo "<li><a href='post.php?title=" . $postTitle . "'>" . $postTitle . 
             "</a></li>";
-        }
-        ?>
+             }
+
+         ?>
+
     </ul>
 
           <section>

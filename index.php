@@ -34,6 +34,9 @@
       <h1>This is my Blog CMS</h1>
     <h3>This blog will contain important information about Baking.</h3>
      <p>These Baking instructions are all created from original recipes.</p>
+    </header>
+    <p>For further information, please click on additional links.</p>
+</article>
 
      <nav>
 <ul>
@@ -41,11 +44,6 @@
     <li> <a href="/post-submission.html/">Post-Submission</a> </li>
  </ul> 
         </nav>
-
-    </header>
-    <p>For further information, please click on additional links.</p>
-</article>
-
 
  <main>
       <h1>Baking Recipes</h1>

@@ -9,6 +9,15 @@
 ?>
 
  <main>
+<?php 
+        function GetPostTitlesFromDatatbase() {
+            // TODO in Module 4
+            // get this from a database instead of hardcoding it
+            $postTitles = array("Blog Post 1", "Blog Post 2", "Blog Post 3");
+            return $postTitles;
+        }
+ ?>
+
       <h1>Baking Recipes</h1>
     <p> All of these baking recipes, are recipes submitted by users and made from scratch!</p>
     

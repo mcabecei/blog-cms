@@ -31,3 +31,8 @@ function getIsSettled($age, $married) {           // Function name
 $isSettled = getisSettled($age, $married);          // Using variables
 $isSettled = getisSettled(5, false);                // Using values 
 
+if ($isSettled) {
+    echo $fullName . " is settled. ";
+}   else {
+    echo $fullName . " is not settled. ";
+}

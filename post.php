@@ -1,27 +1,6 @@
-<!DOCTYPE html>
-<html>
- <head>
-    <title>Blog CMS</title>
-    <style>
-            title {
-                font-size: 40px;
-            }
-            body {
-                background-color: #7a6e60;
-            }
-            
-            h1 {
-                color: white;
-                text-align: center;
-            }
-            
-            p {
-                font-family: 'Times New Roman', Times, serif;
-                font-size: 20px;
-            }
-            </style>
-            
-</head>
+<?php
+    include 'header.php';
+?>
 <body>
   <figure>
  <img src="bakingitems.jpg" alt="Baking" style="width:50%">

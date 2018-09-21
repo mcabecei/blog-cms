@@ -18,3 +18,13 @@ function getFullName($firstName, $lastName)  {   // Function name
 
 $fullName = getFullName($firstName, $lastName);   // Using variables
 $fullName = getFullName("Alice" , "Doe");         // Using values
+
+function getIsSettled($age, $married) {           // Function name
+    $dogYears = $age/7;
+    $isAdult = $dogYears > 4; 
+    $isSettled = $isAdult and $marrried;
+    return $isSettled;                             // Returned value
+}  
+
+$isSettled = getisSettled($age, $married);          // Using variables
+$isSettled = getisSettled(5, false);                // Using values 

@@ -27,10 +27,9 @@
                 <p>These winter baking recipe instructions, are bundled up and ready for the cold holiday season. From events like, Christmas or New Years, these recipes will have you jumping for joy!</p>
               </section>
 
-              <footer>
-                    <p>Posted by: Miranda Cabeceiras </p>
-                    <p>Contact information: <a href="mcabecei@lesley.edu">mcabecei@lesley.edu</a>.</p>
-                  </footer>
+<?php
+    include 'footer.php';
+?>
 
 </body>
 </html>

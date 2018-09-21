@@ -4,12 +4,9 @@
     <p>For further information, please click on additional links.</p>
 </article>
 
-     <nav>
-<ul>
-    <li> <a href="/index.html/">HTML</a> </li>
-    <li> <a href="/post-submission.html/">Post-Submission</a> </li>
- </ul> 
-        </nav>
+<?php
+    include 'navigation.php';
+?>
 
  <main>
       <h1>Baking Recipes</h1>

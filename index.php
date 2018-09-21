@@ -10,7 +10,7 @@
 
  <main>
 <?php 
-        function GetPostTitlesFromDatatbase() {
+        function getPostTitlesFromDatatbase() {
             // TODO in Module 4
             // get this from a database instead of hardcoding it
             $postTitles = array("Blog Post 1", "Blog Post 2", "Blog Post 3");
@@ -23,7 +23,13 @@
     
     <p>An unordered list of Baking Instruction Posts:</p>
     <ul>
-      <li> <a href="post.html">First Post</a> </li>
+      <?php 
+        $postTitles = getPostTitlesFromDatabase();
+
+        foreach($postTitles as $postTitle) {
+            echo "<li><a href='post.php'>" . #postTitle . "</a></li>";
+        }
+        ?>
     </ul>
 
           <section>

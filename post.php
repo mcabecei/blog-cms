@@ -14,6 +14,21 @@
 
 
  <main>
+<?php
+    function getPostDetailsFromDatabase() {
+        // TODO in Module 4
+        // get this data from a database instead of hardcoding it
+        $postDetails = array('title' => 'Blog Post 1',
+                             'content' => 'My first blog post',
+                             'date' => '01/01/2018',
+                             'author' => 'christikaes');
+               
+         return $postDetails;                     
+                                                    
+    }
+?>
+
+
       <h1>Baking Recipe for Chocolate Chip Cookies</h1>
       <p>Follow below for the Instructions to this Recipe:</p>
 

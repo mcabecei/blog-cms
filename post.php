@@ -28,6 +28,15 @@
     }
 ?>
 
+<?php 
+    // Post details contains all the data to generate the blog from
+        $postDetails = getPostDetailsFromDatabase();
+
+    ?>
+    <h1> <?php echo $postDetails["title"]; ?> </h1>
+    <div> <?php echo $postDetails["author"]; ?> </div>
+    <div> <?php echo $postDetails["date"]; ?> </div>
+    <div> <?php echo $postDetails["content"]; ?> </div>
 
       <h1>Baking Recipe for Chocolate Chip Cookies</h1>
       <p>Follow below for the Instructions to this Recipe:</p>

@@ -26,10 +26,12 @@
             while($row = mysqli_fetch_assoc($result)){
                 array_push($postTitles, $row['title']);
             }
-                               
+
         $postTitles = array("Blog Post 1", "Blog Post 2", "Blog Post 3");
             return $postTitles;
         }
+        return $postTitles;
+}
  ?>
 
       <h1>Baking Recipes</h1>

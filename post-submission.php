@@ -2,6 +2,7 @@
     include 'header.php';
 ?>
 <body>
+<form action="submit-post.php" method="POST"> ... </form>
 
   <figure>
  <img src="bakingitems.jpg" alt="Baking" style="width:50%">

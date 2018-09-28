@@ -28,16 +28,7 @@
         <br>
     <button type="submit" name="submit">Submit</button>
     </form>
-      <form action="/action_page.php" method="get">
-        Title Name: <input type="text" title="tname"><br>
-        Author Name: <input type="text" author="aname"><br>
-        Date: <input type="text" date="Date"><br>
-        <textarea rows="4" cols="50">
-               Please type in all of your Recipe instructions here... 
-                </textarea>
-        <button type="submit" value="Submit">Submit</button>
-        <button type="reset" value="Reset">Reset</button>
-      </form>
+    
 </body> 
 <?php
     include 'footer.php';

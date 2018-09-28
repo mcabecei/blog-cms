@@ -4,9 +4,9 @@
 <body>
     <form>
         <input type="text" name="title" placeholder="Titlename">
-        <input type="text" name="title" placeholder="Titlename">
-        <input type="text" name="title" placeholder="Titlename">
-        <input type="text" name="title" placeholder="Titlename">
+        <input type="text" name="author" placeholder="Authorname">
+        <input type="text" name="date" placeholder="MM/DD/YYYY">
+        <input type="text" name="content" placeholder="Contenttext">
 
     </form>
 

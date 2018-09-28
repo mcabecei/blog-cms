@@ -11,7 +11,7 @@
         <br>
         <input type="text" name="content" placeholder="Contenttext">
         <br>
-    <button>Submit</button>
+    <button type="submit" name="submit">Submit</button>
     </form>
 
   <figure>

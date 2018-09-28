@@ -3,8 +3,10 @@
 ?>
 <body>
     <form>
-
-
+        <input type="text" name="title" placeholder="Titlename">
+        <input type="text" name="title" placeholder="Titlename">
+        <input type="text" name="title" placeholder="Titlename">
+        <input type="text" name="title" placeholder="Titlename">
 
     </form>
 

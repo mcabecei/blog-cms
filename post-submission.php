@@ -4,9 +4,13 @@
 <body>
     <form>
         <input type="text" name="title" placeholder="Titlename">
+        <br>
         <input type="text" name="author" placeholder="Authorname">
+        <br>
         <input type="text" name="date" placeholder="MM/DD/YYYY">
+        <br>
         <input type="text" name="content" placeholder="Contenttext">
+        <br>
 
     </form>
 

@@ -2,7 +2,7 @@
     include 'header.php';
 ?>
 <body>
-    <form>
+    <form action="includes/submit-post.php" method="POST">
         <input type="text" name="title" placeholder="Titlename">
         <br>
         <input type="text" name="author" placeholder="Authorname">

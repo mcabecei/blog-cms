@@ -16,7 +16,12 @@
  <main>
 <?php 
         function getPostTitlesFromDatabase() {
-                 
+            include_once 'db_connect.php';
+
+            $sql = "SELECT title FROM posts";
+            $result = mysqli_query($conn, $sql);
+            
+                   
         $postTitles = array("Blog Post 1", "Blog Post 2", "Blog Post 3");
             return $postTitles;
         }

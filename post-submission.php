@@ -2,6 +2,7 @@
     include 'header.php';
 ?>
 <body>
+
   <figure>
  <img src="bakingitems.jpg" alt="Baking" style="width:50%">
  <figcaption>Fig.1 -Baking items, bread, muffins etc. .</figcaption>
@@ -27,7 +28,7 @@
         <button type="submit" value="Submit">Submit</button>
         <button type="reset" value="Reset">Reset</button>
       </form>
-      
+</body> 
 <?php
     include 'footer.php';
 ?>

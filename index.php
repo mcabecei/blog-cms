@@ -16,11 +16,13 @@
  <main>
 <?php 
         function getPostTitlesFromDatabase() {
+             // Get all the post titles from the posts table
             include_once 'db_connect.php';
 
             $sql = "SELECT title FROM posts";
             $result = mysqli_query($conn, $sql);
             
+             // Get each result row as an assoc array, then add title to $postTitles
             $postTitles = array();
 
             while($row = mysqli_fetch_assoc($result)){

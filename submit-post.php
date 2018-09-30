@@ -19,5 +19,5 @@ include_once 'db_connect.php'
    
 
    // redirect to homepage
-   header("Location:index.php");
+   header("Location:../index.php");
 ?>

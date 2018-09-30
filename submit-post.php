@@ -1,10 +1,6 @@
 <?php
 include_once 'db_connect.php'
 
-$title = $_POST['title'];
-$author = $_POST['author'];
-$date = $_POST['date'];
-$content = $_POST['content'];
 
 
    // get the data to insert into the db
@@ -23,5 +19,5 @@ $content = $_POST['content'];
    
 
    // redirect to homepage
-   header("Location: index.php");
+   header("Location: /index.php");
 ?>

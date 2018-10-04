@@ -13,6 +13,9 @@
     include 'navigation.php';
 ?>
 
+<?php
+    include 'head.php';
+?>
 <script src="hello.js"></script>
 
 

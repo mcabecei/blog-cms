@@ -16,3 +16,13 @@ var husband = { firstName: "John", lastName: "Doe", age: 35 }
  function getFullName(firstName, lastName) {     // Function name
     return  firstName + " " + lastName;         // Returned value
 }
+
+function getIsSettled($age, $married) {         // Function name 
+    $dogYears = $age/7;
+    $isAdult = $dogYears > 4;
+    $isSettled = $isAdult and $married;
+    return $isSettled;                          // Returned value 
+}
+
+$isSettled = getIsSettled($age, $married);      // Using variables 
+$isSettled = getIsSettled(5, false);            // Using values 

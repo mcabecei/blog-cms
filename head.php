@@ -4,5 +4,5 @@
   crossorigin="anonymous"></script>
 
   <?php
-    include 'head.js';
+    include 'script.js';
 ?>

@@ -13,6 +13,10 @@
     include 'navigation.php';
 ?>
 
+<script>
+    alert("Hello World");
+</script>
+
  <main>
 <?php 
         function getPostTitlesFromDatabase() {

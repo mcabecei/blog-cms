@@ -1,5 +1,7 @@
 alert("Hello World");
 
+document.write("<h1>Hello World</h1>") 
+
 var firstName = "Jane";                     // String type variable
 var lastName = "Doe";                       // String type variable
 var age = 35;                               // Number type variable

@@ -13,9 +13,8 @@
     include 'navigation.php';
 ?>
 
-<script>
-    alert("Hello World");
-</script>
+<script src="hello.js"></script>
+
 
  <main>
 <?php 

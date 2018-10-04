@@ -8,6 +8,10 @@
     include 'navigation.php';
 ?>
 
+<?php
+    include 'head.php';
+?>
+
 
  <main>
 <?php

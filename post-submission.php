@@ -10,6 +10,9 @@
     include 'navigation.php';
 ?>
 
+<?php
+    include 'head.php';
+?>
 
  <main>
       <h1>New Post for Recipe Submissions!</h1>

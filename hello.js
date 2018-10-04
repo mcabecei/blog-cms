@@ -28,3 +28,9 @@ function getIsSettled($age, $married) {         // Function name
 
 $isSettled = getIsSettled($age, $married);      // Using variables 
 $isSettled = getIsSettled(5, false);            // Using values 
+
+if (isSettled) {
+    document.write(fullName + " is settled.");
+} else {
+    document.write(fullName + " is not settled.");
+}

@@ -12,3 +12,7 @@ var husband = { firstName: "John", lastName: "Doe", age: 35 }
  var dogYears = age/7;                             // Arithmetic Operator
  var isAdult = dogYears > 4;                       // Comparison operator
  var isSettled = isAdult && married;               // Integer type variable
+
+ function getFullName(firstName, lastName) {     // Function name
+    return  firstName + " " + lastName;         // Returned value
+}

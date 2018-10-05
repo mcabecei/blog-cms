@@ -11,3 +11,10 @@ $(document).ready(function() {
         hiddenMessage("Hi There!");
     })
 });
+
+var options = {
+    valueNames: [ 'title' ]
+};
+
+new List('sortable-blog-list', options);
+

@@ -26,6 +26,7 @@
         <br>
         <input type="text" name="content" placeholder="Contenttext">
         <br>
+        <div id="editor"></div>
     <button type="submit" name="submit">Submit</button>
     </form>
     

@@ -8,5 +8,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.1/ace.js">
 
 </script>
+<div id="editor"></div>
+#editor {
+    height: 300px;
+}
+var editor = ace.edit("editor");
+editor.session.setMode("ace/mode/html");
+
+
+
 
  

@@ -73,7 +73,16 @@
             ?>
         </ul>
     </div>
-    
+
+    <div id="editor"></div>
+    #editor {
+        height: 300px;
+    }
+    var editor = ace.edit("editor");
+    editor.session.setMode("ace/mode/html");
+
+
+
           <section>
                 <h1>Fall Recipes</h1>
                 <p>These baking recipes, are ready to enter your kitchen and give off the famous fall scents. Hand crafted specifically for each fall occassion, these recipes will be a hit in your family!</p>

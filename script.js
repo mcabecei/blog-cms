@@ -3,8 +3,8 @@ $(document).ready(function() {
         $(this).css("color", "black");
     },
     function() {
-
-    })
+        $(this).hide();
+        
 });
 
     $("button").click(function() {

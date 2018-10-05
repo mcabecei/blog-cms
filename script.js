@@ -18,3 +18,6 @@ var options = {
 
 new List('sortable-blog-list', options);
 
+var editor = ace.edit("editor");
+editor.session.setMode("ace/mode/html");
+

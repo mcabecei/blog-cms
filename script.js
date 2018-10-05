@@ -8,6 +8,6 @@ $(document).ready(function() {
 });
 
     $("button").click(function() {
-
+        hiddenMessage("Hi There!");
     })
 });

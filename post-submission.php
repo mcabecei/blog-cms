@@ -12,6 +12,12 @@
     include 'head.php';
 ?>
 
+<style type="text/css" media="screen">
+    #editor {
+    height: 300px;
+}
+</style>
+
  <main>
       <h1>New Post for Recipe Submissions!</h1>
       <p>Follow below for the Instructions to submit a personal recipe to share:</p>
@@ -25,6 +31,7 @@
         <input type="text" name="content" placeholder="Contenttext">
         <br>
         <div id="editor"></div>
+        
     <button type="submit" name="submit">Submit</button>
     </form>
     

@@ -3,6 +3,10 @@
 ?>
 <body>
 
+<div id="editor"></div>
+
+
+
 <?php
     include 'navigation.php';
 ?>
